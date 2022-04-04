@@ -4,7 +4,11 @@
     grid-gap: 10px;
 }
 
-
+.review-title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 45px;
+    color: blueviolet;
+}
 
 @media screen and (max-width:767px) {
     .review-containers{
