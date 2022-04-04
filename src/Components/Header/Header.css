@@ -39,22 +39,25 @@ label{
         display: block;
         cursor: pointer;
         width: 26px;
-        float: right;
+        overflow: hidden;
     }
     .header{
         text-align: center;
         width: 100%;
         display: none;
         background-color: white;
-        height: 50px;
+        height: 60px;
     }
-    .header a{ 
-        clear: right;  
-        border-bottom: 1px solid aquamarine;  
-        font-size: 16px;    
+    .header a{   
+        font-size: 18px; 
+        padding: 10px;  
+        margin-bottom: 10px
     }
     #toggle:checked + .header{
         display: block;
+        position: relative;
+        background-color: antiquewhite;
+        height: 150px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px){
