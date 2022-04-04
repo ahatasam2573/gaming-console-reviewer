@@ -1,7 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import useReviews from "../../hooks/useReview";
+import ReviewPerson from "../ReviewPerson/ReviewPerson";
 import "./Home.css";
 
 const Home = () => {
+  const [reviews, setReviews] = useReviews();
+  const sliceReviews = reviews.slice(0, 3);
+
+  const navigate = useNavigate();
+  const goToReviewPage = () => {
+    const path = `/reviews`;
+    navigate(path);
+  };
+
   return (
     <div className="main-container">
       <div className="content-container">
@@ -31,9 +43,13 @@ const Home = () => {
           <img src="./playStation.jpg" alt="" />
         </div>
       </div>
+      <h2 className="review-title">Customer Reviews ({sliceReviews.length})</h2>
       <div className="customer-review-container">
-        <h2>Customer Reviews</h2>
+        {
+          sliceReviews.map(review => <ReviewPerson key={review.id} review={review}></ReviewPerson>)
+        }
       </div>
+      <button onClick={() => goToReviewPage()} className="btn-review"><span className="btn-title">See More</span></button>
     </div>
   );
 };

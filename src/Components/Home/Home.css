@@ -57,6 +57,30 @@
     padding: 10px;
 }
 
+.customer-review-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 5px;
+}
+.btn-review{
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-color: rgb(245, 238, 143);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn-review a{
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2';
+}
+.btn-review:hover{
+    background-color: rgb(182, 173, 52);
+}
+
 @media only screen and (max-width:767px){
     .main-container{
         margin-left: 0;
@@ -89,6 +113,11 @@
         height: 400px;
         width: 400px;
         
+    }
+    .customer-review-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
 }
 @media screen and (min-width:768px) and (max-width:1023px){

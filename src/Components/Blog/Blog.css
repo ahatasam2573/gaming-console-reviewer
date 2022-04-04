@@ -1,0 +1,25 @@
+.blog-container{
+    font-family: 'Baloo Bhai 2';
+    border: 1px solid aqua;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.blog-container h3{
+    font-size: 35px;
+    color: blueviolet;
+    margin-bottom: 2px;
+}
+.blog-container p{
+    font-size: 18px;
+    padding-top: 0px;
+}
+.blog-container div{
+    border: 1px solid aquamarine;
+}
+
+@media only screen and (max-width:767px){
+    .blog-container{
+        margin: auto;
+        padding: auto;
+    }
+}
