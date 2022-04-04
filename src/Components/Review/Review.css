@@ -1,0 +1,22 @@
+.review-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .review-containers{
+        grid-template-columns: 1fr;
+        margin: auto;
+        padding: auto;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .review-containers{
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        padding: auto;
+    }
+}
