@@ -3,7 +3,7 @@ import useReviews from "../../hooks/useReview";
 import ReviewPerson from "../ReviewPerson/ReviewPerson";
 import "./Review.css"
 const Review = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   return (
     <div>
       <h1 className="review-title">Look What our customer say!!!</h1>

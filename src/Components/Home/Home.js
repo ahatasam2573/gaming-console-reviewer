@@ -5,7 +5,7 @@ import ReviewPerson from "../ReviewPerson/ReviewPerson";
 import "./Home.css";
 
 const Home = () => {
-  const [reviews, setReviews] = useReviews();
+  const [reviews] = useReviews();
   const sliceReviews = reviews.slice(0, 3);
 
   const navigate = useNavigate();
