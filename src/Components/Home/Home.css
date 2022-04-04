@@ -1,7 +1,9 @@
+.main-container{
+    font-family: 'Baloo Bhai 2', cursive;
+}
 .content-container{
     display: flex;
     justify-content: space-between;
-    font-family: 'Baloo Bhai 2', cursive;
 }
 .review-container{
     margin-top: 20px;
@@ -42,7 +44,7 @@
 
 .btn-title{
     font-size: 25px;
-    color: rgb(2, 36, 44);
+    color: rgb(3, 92, 112);
 }
 
 .btn-buy:hover{

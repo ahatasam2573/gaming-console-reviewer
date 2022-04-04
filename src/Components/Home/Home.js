@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="main-container">
       <div className="content-container">
         <div className="review-container">
           <h1 className="heading-title">
@@ -30,6 +30,9 @@ const Home = () => {
         <div className="img-container">
           <img src="./playStation.jpg" alt="" />
         </div>
+      </div>
+      <div className="customer-review-container">
+        <h2>Customer Reviews</h2>
       </div>
     </div>
   );
