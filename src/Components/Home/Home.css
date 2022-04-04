@@ -1,0 +1,58 @@
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.review-container{
+    margin-top: 20px;
+}
+.heading-title{
+    color: rgb(121, 84, 253);
+    margin-left: 10px;
+    font-size: 40px;
+}
+.title{
+    color: darkturquoise;
+    font-size: 50px;
+}
+.review-container h3{
+    margin-bottom: 0px;
+}
+.review-container p{
+    padding-left: 10px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-buy{
+    padding: 10px;
+    height: 70px;
+    width: 250px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    background-color: rgb(245, 238, 143);
+    cursor: pointer;
+    
+}
+.btn-buy a{
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2';
+}
+
+.btn-title{
+    font-size: 25px;
+    color: rgb(2, 36, 44);
+}
+
+.btn-buy:hover{
+    background-color: rgb(182, 173, 52);
+}
+
+.img-container img{
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
