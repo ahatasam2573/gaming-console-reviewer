@@ -19,8 +19,9 @@ const Home = () => {
           </p>
           <button className="btn-buy">
             <a
-              target={"_blank"}
               href="https://direct.playstation.com/en-us/consoles/console/playstation5-console.3006646"
+              target="_blank"
+              rel="noreferrer"
             >
               <span className="btn-title">Buy Now</span>
             </a>
