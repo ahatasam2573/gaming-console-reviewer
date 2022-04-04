@@ -7,6 +7,9 @@ nav{
    height: 40px;
    background-color: rgb(183, 210, 223);
    border-radius: 5px;
+   display: flex;
+   text-align: center;
+   justify-content: space-evenly;
 }
 .header a{
     text-decoration: none;
@@ -18,4 +21,7 @@ nav{
 }
 .header a:hover{
     color: burlywood;
+}
+.active-link{
+    color: black;
 }
